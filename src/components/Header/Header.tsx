@@ -7,7 +7,7 @@ const Header = () => {
         <>
         <header className={style.header_conf}>
             <h1>Ola mundo</h1>
-            <button><Link to={"/"}>clik</Link></button>
+            <button><Link to={"/react-page"}>click</Link></button>
 
         </header>
         </>

@@ -45,7 +45,7 @@ const Home = () => {
     <>
       <header>
         <h1 className="h1alt">Seja Bem vindo seu puto</h1>
-        <button><Link to={"/gay"}>Gay</Link></button>
+        
       </header>
       <div id="hamburger">&#9776;</div>
       
@@ -80,21 +80,36 @@ const Home = () => {
         <div className="cont">
           <div className="ft">
             <h2 >NEKO ARC</h2>
-            <img src="https://github.com/Jefrey256/imgs/blob/main/projetinho/CvdhxAgUAAErU7q.jpg?raw=true" alt=""/>
+            <img src="https://media.tenor.com/rBTJCRQgBvgAAAAi/neco-arc.gif" alt=""/>
             <h2 >Editor: JEREDY</h2>
           </div>
           <div className="ft">
             <h2 >NEKO ARC</h2>
-            <img src="4https://github.com/Jefrey256/imgs/blob/main/projetinho/IMG-20230731-WA2589.jpg?raw=true" alt=""/>
+            <img src="https://art.ngfiles.com/images/2714000/2714398_lovetopullmicke_neco-arc.png?f1662171604" alt=""/>
             <h2 >Editor: JEREDY</h2>
           </div>
           <div className="ft">
             <h2 >NEKO ARC</h2>
-            <img src="4https://github.com/Jefrey256/imgs/blob/main/projetinho/IMG-20230731-WA2600.jpg?raw=true" alt=""/>
+            <img src="https://preview.redd.it/is-there-a-neco-arc-plush-v0-b30tarzwh0ya1.jpg?width=1080&crop=smart&auto=webp&s=92008f75a40b5025b7b946721c73f502ecbd3d88" alt=""/>
             <h2 >Editor: JEREDY</h2>
           </div>
         </div>
       </section>
+
+      
+    <section>
+        <h2>Postagens</h2>
+        <div className="postagem">
+            <h3>Feline Café</h3>
+            <a href="http://furrbrcomics.byethost13.com/index.php"><p>click</p></a>
+        </div>
+        <div className="postagem">
+            <h3>Título da Postagem 2</h3>
+            <p>Conteúdo da Postagem 2</p>
+        </div>
+        {/* <!-- Adicione mais postagens aqui --> */}
+    </section>
+
       <footer>Criador JEREDY</footer>
     
     </>

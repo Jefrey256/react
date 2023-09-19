@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import Header from "../../Header/Header";
 import Footer from "../../Footer/Footer";
 import style from './Style.module.css'
@@ -10,7 +10,7 @@ const Gay = () => {
         <Header />
         <div className={style.container}>
             <ul>
-                <li><Link to='/'>home</Link></li>
+                
             </ul>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veniam incidunt, laudantium iste saepe quia nesciunt commodi dignissimos temporibus dolor ipsam molestiae corrupti ea, ullam itaque. Repellendus, enim. Nobis, est?
